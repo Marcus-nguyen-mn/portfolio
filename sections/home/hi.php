@@ -5,6 +5,7 @@
     </div>
     <img class="me" src="<?php echo get_field("me_img","option"); ?>" alt="Me">
     <h2 class="email"><?php echo get_field("mail","option"); ?></h2>
+    <h2 class="email">(+84) 934 172 968</h2>
     <h2 class="address">Base in Viet Nam</h2>
     <p class="copyright">&copy; 2023 Nam Nguyen. All Rights Reserved</p>
     <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
