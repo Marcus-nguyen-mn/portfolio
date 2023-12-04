@@ -7,6 +7,9 @@
     .left-sidebar .sidebar-header {
         margin-bottom: 30px;
     }
+    .left-sidebar .sidebar-header img{
+        width: 128px;
+    }
     .left-sidebar .social-profile {
         margin-bottom: 30px;
     }
