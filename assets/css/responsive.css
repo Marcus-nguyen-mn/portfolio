@@ -1,17 +1,11 @@
 @media only screen and (max-width: 1366px) {
-    .main_header .right-header ul.menu li.menu-item-has-children:hover .sub-menu{
-        left: -145px;
-    }
+    
 }
 @media only screen and (max-width: 1200px) {
     .mc-container{
         max-width: 100%;
         padding: 0 10px;
         margin:0 auto;
-    }
-    .main_header .right-header ul.menu li.menu-item-has-children:hover .sub-menu{
-        left: unset;
-        right:0;
     }
     .mc-mg--15{
         margin:0 -10px;
@@ -79,79 +73,9 @@
         max-width: 100%;
         width: 100%;
     }
-    .sec_1_pth_one_post{
-        margin-bottom: 20px;
-    }
 }
 @media only screen and (max-width: 1024px) {
-    .main_header .right-header{
-        display: none;
-    }
-    .main_header{
-        padding: 6px 0;
-    }
-    .icon-menu-mobile{
-        display: block;
-    }
-    .mc_focus .mc-forcus-left .focus-title{
-        padding: 6px 10px 6px 30px;
-        margin-left: -20px;
-    }
-    .item-slider-banner a .content-on-banner-slider .title-on-banner-slider{
-        font-size: 20px;
-    }
-    .mc_home_sec_3 .mchs3_thumb_one_post img{
-        height: 150px;
-    }
-    .mc_home_sec_3 .mchs3_content_list img{
-        height: 82px;
-    }
-    .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 325px;
-    }
-    .ns-thumb-post-c2 img{
-        height: 150px;
-    }
-    .ns-thumb-post-horizontal-c2 img{
-        height: 80px;
-    }
-    .ns-title-post-horizontal-c2{
-        font-size: 13px;
-    }
-    .thtm-thumb-post img{
-        height: 150px;
-    }
-    .thtm2-thumb-post img{
-        height: 150px;
-    }
-    .thtm3-thumb-post img{
-        height: 110px;
-    }
-    .sec_1_pth_one_post img{
-        height: 225px;
-    }
-    .show_pth_sec_2 .mc-after-post-list .mc-custom-mgb img{
-        height: 125px;
-    }
-    .show_pth_sec_2 .mc-after-post-list .mc-custom-mgb .img-st-effect{
-        height: 125px;
-    }
-    .img_item_video_hl img{
-        height: 155px;
-        object-fit: cover;
-    }
-    .gt_sec_4 .thtm2-thumb-post img{
-        height: 150px;
-    }
-    .fashion_one .thtm-title-post{
-        margin-bottom: 18px;
-    }
-    .mc-ctf-sec-1 input{
-        margin-top: 2px;
-    }
-    .mc-ctf-sec-1 textarea{
-        margin-top: 1px;
-    }
+   
 }
 @media only screen and (max-width: 876px){
     .mc-mg--10{
@@ -160,10 +84,7 @@
     .mc-pdx-10{
         padding: 0 5px;
     }
-    .mc_focus .mc-forcus-left .focus-title{
-        padding: 6px 10px 6px 10px;
-        margin-left: -8px;
-    }
+    
     .mc-col-lg-1{
         flex: 0 0 8.33%;
         max-width: 8.33%;
@@ -224,76 +145,9 @@
         max-width: 100%;
         width: 100%;
     }
-    .mc_home_sec_3 .mchs3_thumb_one_post img{
-        height: 245px;
-    }
-    .mc_home_sec_3 .mchs3_content_list img{
-        height: 95px;
-    }
-    .thumb-slider-red img{
-        height: 400px;
-    }
-    .mc-right-sb-cover{
-        position: unset;
-        top: unset;
-    }
-    .mc-sb-banner-home{
-        display: none;
-    }
-    .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 260px;
-    }
-    .ns-thumb-post-c2 img{
-        height: 120px;
-    }
-    .thtm-thumb-post img{
-        height: 120px;
-    }
-    .thtm2-thumb-post img{
-        height: 135px;
-    }
-    .thtm3-thumb-post img{
-        height: 90px;
-    }
-    .thtm-3-excerpt-post{
-        font-size: 14px;
-    }
-    .sec_1_pth_one_post img{
-        height: 175px;
-    }
-    .show_pth_sec_2 .mc-after-post-list .mc-custom-mgb img{
-        height: 106px;
-    }
-    .show_pth_sec_2 .mc-after-post-list .mc-custom-mgb .img-st-effect{
-        height: 106px;
-    }
-    .img_item_video_hl img{
-        height: 122px;
-    }
-    .gt_sec_4 .thtm2-thumb-post img{
-        height: 120px;
-    }
-    .fashion_one .thtm-thumb-post img{
-        height: 95px;
-    }
-    .fashion-2 .thtm-thumb-post img{
-        height: 170px;
-        object-fit: cover;
-    }
-    .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 260px;
-    }
-    .contact_one .form-tag-sec-1{
-        max-width: 100%;
-    }
-    .title-post-new-mc{
-        font-size: 18px;
-    }
+    
 }
 @media only screen and (max-width: 768px) {
-    .banner_qc_news_1_hid{
-        display: none;
-    }
     .mc-col-md-1{
         flex: 0 0 8.33%;
         max-width: 8.33%;
@@ -354,61 +208,7 @@
         max-width: 100%;
         width: 100%;
     }
-    .dis-block{
-        display: none !important;
-    }
-    .dis-none{
-        display: block !important;
-    }
-    .mc-form-search .form-control{
-        width: 240px;
-    }
-    .mc_home_sec_3 .mchs3_content{
-        margin-bottom: 20px;
-    }
-    .mc_sec_5 .red-slider{
-        margin-top: 20px;
-    }
-    .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 300px;
-    }
-    .ns-thumb-post-c2 img{
-        height: 150px;
-    }
-    .thtm3-thumb-post img{
-        height: 110px;
-    }
-    .banner_qc_news_3{
-        display: none;
-    }
-    .mg_item_video{
-        margin-bottom: 20px;
-    }
-    .img_item_video_hl img{
-        height: 210px;
-    }
-    .gt_sec_4 .ns-thumb-post-c2 img{
-        height: 120px;
-    }
-    .fashion_one .fas-thumb-post img{
-        height: 350px;
-    }
-    .fashion_one .fas-excerpt-post{
-        margin-bottom: 20px;
-    }
-    .fashion_one .thtm-thumb-post img{
-        height: 180px;
-    }
-    .fashion-4 .thtm-thumb-post img{
-        height: 150px;
-    }
-    .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 300px;
-    }
-    .mc-ctf-sec-1 input{
-        margin-top: 3px;
-        padding: 6px 10px;
-    }
+    
 }
 @media only screen and (max-width: 576px) {
     .mc-col-sm-1{
@@ -471,210 +271,8 @@
         max-width: 100%;
         width: 100%;
     }
-    .mc_focus .mc-forcus-left .focus-title{
-        padding: 6px 10px 6px 83px;
-        margin-left: -73px;
-    }
-    .slider-focus{
-        margin-left: -18px;
-    }
-    .mc-form-search .form-control{
-        width: 100%;
-    }
-    .mc-form-search .sty_input{
-        width: 100%;
-    }
-    .mc-form-search{
-        margin-top: 6px;
-    }
-    .mc_focus{
-        padding: 6px 0;
-    }
-    .item-slider-banner a .content-on-banner-slider{
-        width: 80%;
-    }
-    .item-slider-banner a .content-on-banner-slider .title-on-banner-slider{
-        font-size: 16px;
-    }
-    .thumb-slider-red img{
-        height: 235px;
-    }
-    .mc_home_sec_3{
-        padding: 22px 0 30px 0;
-    }
-    .red-slider{
-        margin-top: 20px;
-    }
-    .mc-sb-banner-home{
-        display: block;
-    }
-    .footer .menu-footer .menu li a{
-        padding: 15px 12px;
-        font-size: 12px;
-    }
-    .footer .menu-footer .menu li a::after{
-        height: 14px;
-    }
-    .left-request-reader .logo_footer img{
-        margin: 0 auto;
-        margin-bottom: 15px;
-    }
-    .title_request_reader{
-        text-align: center;
-    }
-    .css-mailer{
-        justify-content: center;
-    }
-    .desc_requeest_reader{
-        text-align: center;
-    }
-    .about_woman_think{
-        padding-left: 0;
-    }
-    .info_this_footer{
-        margin-bottom: 30px;
-    }
-    .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 250px;
-    }
-    .ns-thumb-post-c2 img{
-        height: 235px;
-    }
-    .ns-thumb-post-horizontal-c2 img{
-        height: 115px;
-    }
-    .ns-title-post-horizontal-c2{
-        font-size: 15px;
-    }
-    .thtm-thumb-post img{
-        height: 235px;
-    }
-    .thtm-mgb{
-        margin-bottom: 30px;
-    }
-    .news-thtm-1{
-        margin-bottom: 10px;
-    }
-    .thtm-2-title-post{
-        font-size: 14px;
-        margin-bottom: 10px;
-    }
-    .thtm-2-date-post{
-        margin-bottom: 10px;
-    }
-    .thtm-2-excerpt-post{
-        font-size: 14px;
-    }
-    .thtm2-thumb-post img{
-        height: 100px;
-    }
-    .banner_qc_news_3{
-        display: block;
-    }
-    .show_pth_sec_1 .banner_qc_news_1{
-        display: none;
-    }
-    .sec_1_pth_one_post img{
-        height: 245px;
-    }
-    .show_pth_sec_1_contain .thtm-2-title-post{
-        font-size: 16px;
-        margin-bottom: 10px;
-        margin-top: 15px;
-    }
-    .show_pth_sec_2 .mc-first-before-three-af{
-        padding-bottom: 10px;
-        margin-bottom: 30px;
-        border-bottom: 1px solid #80808024;
-    }
-    .show_pth_sec_2_contain{
-        padding-bottom: 0;
-        margin-bottom: 0;
-        border-bottom: 0;
-    }
-    .img_item_video_hl img{
-        height: 115px;
-    }
-    .mg-csb{
-        padding-bottom: 10px;
-        margin-bottom: 30px;
-        border-bottom: 1px solid #80808024;
-    }
-    .gt_sec_4 .ns-thumb-post-c2 img{
-        height: 230px;
-    }
-    .gt_sec_4 .thtm2-thumb-post img{
-        height: 230px;
-    }
-    .gt_sec_4 .thtm-2-title-post{
-        font-size: 16px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .gt_sec_4 .thtm-2-excerpt-post{
-        margin-bottom: 10px;
-    }
-    .list-child-cat-scrl{
-        width: 100%;
-        overflow-x: scroll;
-    }
-    .list-child-cat-contain{
-        width: 800px;
-    }
-    .bn-fas-none{
-        display: none;
-    }
-    .fashion_one .fas-thumb-post img{
-        height: 250px;
-    }
-    .fashion_one .thtm-thumb-post img{
-        height: 250px;
-    }
-    .fashion_one .thtm-title-post{
-        margin-bottom: 0;
-    }
-    .fashion-2 .thtm-thumb-post img{
-        height: 250px;
-    }
-    .fashion-4 .thtm-thumb-post img{
-        height: 235px;
-    }
-    .show_pth_sec_2.mother-children-two .mc-first-before-three-af{
-        padding-bottom: 0px;
-        margin-bottom: 10px;
-        border-bottom: 0;
-    }
-    .kitchen_1 .show_news_sec_1 .ns-first-post .ns-thumb-post img{
-        height: 250px;
-    }
-    .ctf-mgb{
-        margin-bottom: 30px;
-    }
-    .slider-focus{
-        max-height:37px ;
-    }
+    
 }
 @media only screen and (max-width: 438px) {
-    .mc_focus .mc-forcus-left .focus-title{
-        padding: 6px 10px 6px 42px;
-        margin-left: -35px;
-    }
-    .slider-focus{
-        margin-left: -18px;
-    }
-    .mc-form-search .form-control{
-        width: 100%;
-    }
-    .mc-form-search .sty_input{
-        width: 100%;
-    }
-    .mc-form-search{
-        margin-top: 6px;
-    }
-    .mc_focus{
-        padding: 6px 0;
-    }
-    .detail_post{
-        margin-bottom: 60px;
-    }
+    
 }

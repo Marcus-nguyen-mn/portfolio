@@ -5,21 +5,6 @@ get_header();
     get_template_part('sections/home/focus'); 
     get_template_part('sections/banner-top-on-all-page');
 ?>
-<?php 
-    $cat = get_queried_object();
-    $parent_cat_id = $cat->parent;
-    if($parent_cat_id == 0){
-?>
-    <div class="mc_cate_name">
-        <div class="mc-container">
-            <?php echo single_cat_title(); ?>
-        </div>
-    </div>
-<?php 
-    }else{
-        list_cat_child_in_cate_page($parent_cat_id, $cat->term_id);
-    }
-?>
 <section class="show_pth_sec_1 mc_category">
     <div class="mc-container">
         <div class="show_pth_sec_1_contain">

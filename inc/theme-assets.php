@@ -36,22 +36,4 @@ function theme_enqueue_styles()
     }
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
-
-/*
- *  ENQUEUE STYLES SLICK
- */
-function theme_enqueue_styles_slick()
-{
-    // Initialize variables
-    $script_handle = 'wp-style';
-
-    // Register main styles and other if defined
-    $css_files = glob(THEME_DIR.'/assets/css/slick/*.css');
-    foreach ($css_files as $file) {
-        $handle = $script_handle. '-' .basename($file, '.css');
-        wp_register_style($handle, THEME_URL.'/assets/css/slick/'.basename($file)."?".date('l jS \of F Y h:i:s A'), array(), false, false);
-        wp_enqueue_style($handle);
-    }
-}
-add_action('wp_enqueue_scripts', 'theme_enqueue_styles_slick');
 ?>
