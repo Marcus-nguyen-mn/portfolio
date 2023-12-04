@@ -4,239 +4,15 @@
  */
 get_header();
 ?>
-<?php
-    // get_template_part('sections/home/focus'); 
-?>
 <main class="drake-main">
     <div id="smooth-wrapper">
         <div id="smooth-content">
-
-            <div class="left-sidebar">
-                <div class="sidebar-header d-flex align-items-center justify-content-between">
-                    <img src="<?php echo get_field("main_logo","option"); ?>" alt="Logo">
-                    <span class="designation"><?php echo get_field("current_job","option"); ?></span>
-                </div>
-                <img class="me" src="<?php echo get_field("me_img","option"); ?>" alt="Me">
-                <h2 class="email"><?php echo get_field("mail","option"); ?></h2>
-                <h2 class="address">Base in Viet Nam</h2>
-                <p class="copyright">&copy; 2023 Nam Nguyen. All Rights Reserved</p>
-                <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
-                    <li>
-                        <a href=""><i class="lab la-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="lab la-dribbble"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="lab la-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href=""><i class="lab la-github"></i></a>
-                    </li>
-                </ul>
-                <a href="#" class="theme-btn">
-                    <i class="las la-envelope"></i> Hire Me!
-                </a>
-            </div>
-
-            <section class="hero-section page-section scroll-to-page" id="home">
-
-                <div class="custom-container">
-                    <div class="hero-content content-width">
-                        <div class="section-header">
-                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-home"></i> Introduce
-                            </h4>
-                            <h1 class="scroll-animation" data-animation="fade_from_bottom">Say Hi from <span>Drake</span>, Framer Designer and Developer</h1>
-                        </div>
-                        <p class="scroll-animation" data-animation="fade_from_bottom">I design and code beautifully simple things and i love what i do. Just simple like that!</p>
-                        <a href="#portfolio" 
-                            class="go-to-project-btn scroll-to scroll-animation" 
-                            data-animation="rotate_up">
-                            <img src="./assets/images/round-text.png" alt="Rounded Text">
-                            <i class="las la-arrow-down"></i>
-                        </a>
-    
-                        <div class="facts d-flex">
-                            <div class="left scroll-animation" data-animation="fade_from_left">
-                                <h1>10+</h1>
-                                <p>Years of <br>Experience</p>
-                            </div>
-                            <div class="right scroll-animation" data-animation="fade_from_right">
-                                <h1>182+</h1>
-                                <p>projects completed on <br>15 countries</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    
-            <section class="about-area page-section scroll-to-page" id="about">
-                <div class="custom-container">
-                    <div class="about-content content-width">
-                        <div class="section-header">
-                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                <i class="lar la-user"></i> About
-                            </h4>
-                            <h1 class="scroll-animation" data-animation="fade_from_bottom">Every great design begin with<br>
-                                an even <span>better story</span></h1>
-                        </div>
-                        <p class="scroll-animation" data-animation="fade_from_bottom">Since beginning my journey as a freelance designer nearly 8 years ago, 
-                            I've done remote work for agencies, consulted for startups, and collaborated with 
-                            talented people to create digital products for both business and consumer use. 
-                            I'm quietly confident, naturally curious, and perpetually working on improving my 
-                            chopsone design problem at a time.</p>
-                    </div>
-                </div>
-            </section>
-    
-    
-            <section class="resume-area page-section scroll-to-page" id="resume">
-                <div class="custom-container">
-                    <div class="resume-content content-width">
-                        <div class="section-header">
-                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-briefcase"></i> Resume
-                            </h4>
-                            <h1 class="scroll-animation" data-animation="fade_from_bottom">Education & <span>Experience</span></h1>
-                        </div>
-    
-                        <div class="resume-timeline">
-                            <div class="item scroll-animation" data-animation="fade_from_right">
-                                <span class="date">2020 - Present</span>
-                                <h2>Framer Desinger & Developer</h2>
-                                <p>Brunodee Agency</p>
-                                <h2>Front-End WordPress Developer</h2>
-                                <p>Envato Market</p>
-                            </div>
-                            <div class="item scroll-animation" data-animation="fade_from_right">
-                                <span class="date">2013 - 2019</span>
-                                <h2>Webflow Developer & Co-Founder</h2>
-                                <p>Designflow Studio</p>
-                                <h2>Web Designer</h2>
-                                <p>Freelance</p>
-                                <h2>Leader Team of Marketing</h2>
-                                <p>AHA Marketing Agency</p>
-                            </div>
-                            <div class="item scroll-animation" data-animation="fade_from_right">
-                                <span class="date">2010 - 2013</span>
-                                <h2>Bachelor Degree of Information Technology</h2>
-                                <p>US RMIT University</p>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </section>
-    
-    
-            <section class="services-area page-section scroll-to-page" id="services">
-                <div class="custom-container">
-                    <div class="services-content content-width">
-                        <div class="section-header">
-                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-stream"></i> Services
-                            </h4>
-                            <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Specializations</span></h1>
-                        </div>
-    
-                        <div class="services-items">
-                            <div class="service-item scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-bezier-curve"></i>
-                                <h2>Website Design</h2>
-                                <p>I created digital products with unique ideas use Figma & Framer</p>
-                                <span class="projects">24 Projects</span>
-                            </div>
-                            <div class="service-item scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-code"></i>
-                                <h2>Development</h2>
-                                <p>I build website go live with Framer, Webflow or WordPress</p>
-                                <span class="projects">126 Projects</span>
-                            </div>
-                            <div class="service-item scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-bezier-curve"></i>
-                                <h2>SEO/Marketing</h2>
-                                <p>Increase the traffic for your website with SEO optimized</p>
-                                <span class="projects">8 Projects</span>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </section>
-    
-    
-            <section class="skills-area page-section scroll-to-page" id="skills">
-                <div class="custom-container">
-                    <div class="skills-content content-width">
-                        <div class="section-header">
-                            <h4 class="subtitle scroll-animation" data-animation="fade_from_bottom">
-                                <i class="las la-shapes"></i> my skills
-                            </h4>
-                            <h1 class="scroll-animation" data-animation="fade_from_bottom">My <span>Advantages</span></h1>
-                        </div>
-    
-                        <div class="row skills text-center">
-                            <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
-                                <div class="skill">
-                                    <div class="skill-inner">
-                                        <img src="./assets/images/figma.png" alt="Figma">
-                                        <h1 class="percent">92%</h1>
-                                    </div>
-                                    <p class="name">Figma</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
-                                <div class="skill">
-                                    <div class="skill-inner">
-                                        <img src="./assets/images/framer.png" alt="Framer">
-                                        <h1 class="percent">85%</h1>
-                                    </div>
-                                    <p class="name">Framer</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 scroll-animation" data-animation="fade_from_top">
-                                <div class="skill">
-                                    <div class="skill-inner">
-                                        <img src="./assets/images/webflow.png" alt="Webflow">
-                                        <h1 class="percent">80%</h1>
-                                    </div>
-                                    <p class="name">Webflow</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 scroll-animation" data-animation="fade_from_right">
-                                <div class="skill">
-                                    <div class="skill-inner">
-                                        <img src="./assets/images/react.png" alt="React">
-                                        <h1 class="percent">90%</h1>
-                                    </div>
-                                    <p class="name">React</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 scroll-animation" data-animation="fade_from_left">
-                                <div class="skill">
-                                    <div class="skill-inner">
-                                        <img src="./assets/images/wordpress.png" alt="WordPress">
-                                        <h1 class="percent">86%</h1>
-                                    </div>
-                                    <p class="name">WordPress</p>
-                                </div>
-                            </div>
-                            <div class="col-md-3 scroll-animation" data-animation="fade_from_bottom">
-                                <div class="skill">
-                                    <div class="skill-inner">
-                                        <img src="./assets/images/laravel.png" alt="Laravel/PHP">
-                                        <h1 class="percent">70%</h1>
-                                    </div>
-                                    <p class="name">Laravel/PHP</p>
-                                </div>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
-            </section>
-    
+            <?php
+                get_template_part('sections/home/hi');
+                get_template_part('sections/home/about');
+                get_template_part('sections/home/education-experience');
+                get_template_part('sections/home/specializations');
+            ?>
     
             <section class="portfolio-area page-section scroll-to-page" id="portfolio">
                 <div class="custom-container">
@@ -252,19 +28,19 @@ get_header();
                             <div class="col-md-12 scroll-animation" data-animation="fade_from_bottom">
                                 <div class="portfolio-item portfolio-full">
                                     <div class="portfolio-item-inner">
-                                        <a href="./assets/images/portfolio1.jpg" data-lightbox="example-1">
-                                            <img src="./assets/images/portfolio1.jpg" alt="Portfolio">
+                                        <a href="#" data-lightbox="example-1">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/portfolio1.jpg" alt="Portfolio">
                                         </a>
     
                                         <ul class="portfolio-categories">
                                             <li>
-                                                <a href="">Figma</a>
+                                                <a href="#">Figma</a>
                                             </li>
                                             <li>
-                                                <a href="">Framer</a>
+                                                <a href="#">Framer</a>
                                             </li>
                                             <li>
-                                                <a href="">WordPress</a>
+                                                <a href="#">WordPress</a>
                                             </li>
                                         </ul>
                                     </div>

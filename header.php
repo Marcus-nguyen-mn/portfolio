@@ -90,11 +90,6 @@
                     </a>
                 </li>
                 <li>
-                    <a class="scroll-to" href="#skills">
-                        <i class="las la-shapes"></i> <span>Skills</span>
-                    </a>
-                </li>
-                <li>
                     <a class="scroll-to" href="#portfolio">
                         <i class="las la-grip-vertical"></i> <span>Portfolios</span>
                     </a>
@@ -152,11 +147,6 @@
         </a>
     </li>
     <li>
-        <a class="scroll-to" href="#skills">
-            <span>Skills</span> <i class="las la-shapes"></i>
-        </a>
-    </li>
-    <li>
         <a class="scroll-to" href="#portfolio">
             <span>Portfolios</span> <i class="las la-grip-vertical"></i>
         </a>
@@ -184,17 +174,17 @@
     <p class="copyright">&copy; 2023 Nam Nguyen. All Rights Reserved</p>
     <ul class="social-profile d-flex align-items-center flex-wrap justify-content-center">
         <li>
-            <a href=""><i class="lab la-twitter"></i></a>
+            <a href=""><i class="lab la-facebook"></i></a>
         </li>
         <li>
             <a href=""><i class="lab la-dribbble"></i></a>
         </li>
-        <li>
+        <!-- <li>
             <a href=""><i class="lab la-instagram"></i></a>
-        </li>
-        <li>
+        </li> -->
+        <!-- <li>
             <a href=""><i class="lab la-github"></i></a>
-        </li>
+        </li> -->
     </ul>
     <a href="#" class="theme-btn">
         <i class="las la-envelope"></i> Hire Me!

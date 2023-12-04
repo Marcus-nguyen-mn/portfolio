@@ -71,10 +71,6 @@
 input{
     box-sizing: border-box;
 }
-img{
-    display: block;
-    width: 100%;
-}
 li{
     list-style-type: none;
 }
